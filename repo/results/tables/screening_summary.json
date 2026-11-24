@@ -1,0 +1,38 @@
+{
+  "best_MR6": {
+    "formulation": "MR6",
+    "pressure_bar": 5.0,
+    "speed_rpm": 300.0,
+    "temp_setpoint_C": 150.0,
+    "COF_pred": 0.477863509587699,
+    "wear_pred": 6.19495932202044,
+    "CV_pred": 4.150324479284903,
+    "fade_pred": 3.757286353333736,
+    "recovery_pred": 95.19067535294167,
+    "D": 0.8900786544942696,
+    "COF_sd": 0.010087042728375658,
+    "wear_sd": 0.22785942916861107
+  },
+  "region5pct": {
+    "P": [
+      5.0,
+      7.0
+    ],
+    "V": [
+      300.0,
+      380.0
+    ],
+    "T": [
+      150.0,
+      210.0
+    ]
+  },
+  "pareto": {
+    "n_feasible": 58653,
+    "n_nondominated": 2,
+    "formulations": {
+      "MR6": 1,
+      "MR5": 1
+    }
+  }
+}

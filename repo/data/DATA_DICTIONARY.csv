@@ -1,0 +1,24 @@
+file,column(s),meaning
+run_level_567.csv,run_id,Unique run ID: formulation-batch-P-V-T
+run_level_567.csv,formulation,MR0-MR6 (Table 1)
+run_level_567.csv,batch_id,Independent batch B1-B3
+run_level_567.csv,specimen_id,Specimen identifier (one specimen per run)
+run_level_567.csv,run_order_in_batch,Randomised order within batch (1-27)
+run_level_567.csv,pressure_bar,"Contact pressure: 5, 10, 15 bar"
+run_level_567.csv,speed_rpm,"Sliding speed: 300, 500, 660 rpm"
+run_level_567.csv,temp_setpoint_C,"Temperature setpoint: 150, 250, 350 C"
+run_level_567.csv,duration_min / ambient_C,30 min; 23 C
+run_level_567.csv,counterface / counterface_Ra_um,AISI 1045/EN8 disc; Ra 0.8-1.6 um
+run_level_567.csv,mean_COF,Mean coefficient of friction (-)
+run_level_567.csv,specific_wear_rate_e-4,"Specific wear rate, 1e-4 mm3/(N m)"
+run_level_567.csv,friction_CV_pct,"Coefficient of variation of COF within run (%), Eq. 2"
+run_level_567.csv,fade_pct,"Fade (%), Eq. 3"
+run_level_567.csv,recovery_pct,"Recovery (%), Eq. 4"
+run_level_567.csv,peak_interface_T_C,Peak interface temperature (C)
+run_level_567.csv,density_g_cm3 / hardness_shoreD,Specimen density and Shore D hardness
+run_level_567.csv,mass_loss_g,Specimen mass loss (g)
+run_level_567.csv,dataset_status / calibration_status / test_basis,SYNTHETIC flags (real workbook: MEASURED / VERIFIED / ACTUAL_RIG)
+time_series_17577.csv,"run_id, time_min, COF_t, interface_T_C",31 samples per run (0-30 min). Synthetic; mean(COF_t) and CV(COF_t) reproduce the run-level values exactly; peak of interface_T equals peak_interface_T_C
+condition_summary_189.csv,"*_mean, *_std",Mean/SD over the 3 batches for each formulation x condition
+batch_records_21.csv,"*_nominal_g, *_weighed_g",Nominal (Table 3) and simulated weighed masses; process fields TO_BE_FILLED
+companion_MR6_81.csv,"specific_wear_rate_e-6, tribofilm_coverage_pct, ...","Synthetic MR6 companion set: T = 175/250/350 C, wear in 1e-6 units, tribofilm coverage (%)"
